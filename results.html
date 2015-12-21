@@ -1,0 +1,16 @@
+<ul>
+{% for each in data %}
+	<li class="content">
+		<!-- <div class='prof_pic'>
+		</div> -->	
+		<div class='name'>
+			<p>{{each.name}}</p>
+		</div>
+		<div class='detail'>
+			<p>{{each.what}}</p>
+			<p><b>Location:</b> {{each.location_name}}</p>
+			<p><b>Contact Info:</b> {{each.phone}}{{each.opt_contact}}</p>
+		</div>
+	</li>
+{% endfor %}
+</ul>
